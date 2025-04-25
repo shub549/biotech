@@ -1,0 +1,223 @@
+{% extends 'base.html' %}
+
+{% block title %}About Us - BioFind{% endblock %}
+
+{% block content %}
+<!-- About Hero Section -->
+<section class="about-hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="about-title">About <span class="highlight">BioFind</span></h1>
+                <p class="about-subtitle">Pioneering the future of biometric identification technology</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-image-container">
+                    <img src="{{ url_for('static', filename='images/about-team.jpg') }}" alt="BioFind Team" class="about-image">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Story -->
+<section class="our-story">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2>Our <span class="highlight">Story</span></h2>
+            <p class="section-subtitle">The journey behind BioFind's innovation</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="story-content">
+                    <p>BioFind was founded in 2020 with a clear mission: to revolutionize the way we approach identity verification through cutting-edge biometric technology. What began as a small team of passionate engineers and data scientists has grown into a leading provider of advanced biometric solutions.</p>
+                    
+                    <p>Our journey started when our founders recognized the limitations and security vulnerabilities in traditional identification methods. They envisioned a future where identity verification would be seamless, secure, and accessible to everyone.</p>
+                    
+                    <p>After years of research and development, we launched our first biometric identification platform, which quickly gained recognition for its accuracy and reliability. Today, BioFind continues to push the boundaries of what's possible in biometric technology, constantly innovating to meet the evolving needs of our clients.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Mission -->
+<section class="our-mission">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="mission-image-container">
+                    <img src="{{ url_for('static', filename='images/mission.jpg') }}" alt="Our Mission" class="mission-image">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="mission-content">
+                    <h2>Our <span class="highlight">Mission</span></h2>
+                    <p>At BioFind, our mission is to create a world where identity verification is seamless, secure, and accessible to all. We are committed to developing innovative biometric solutions that protect privacy while providing unparalleled security.</p>
+                    
+                    <div class="mission-points">
+                        <div class="mission-point">
+                            <div class="point-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="point-text">
+                                <h4>Security First</h4>
+                                <p>We prioritize the security and privacy of our users' biometric data above all else.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mission-point">
+                            <div class="point-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="point-text">
+                                <h4>Continuous Innovation</h4>
+                                <p>We constantly push the boundaries of biometric technology through research and development.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mission-point">
+                            <div class="point-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="point-text">
+                                <h4>Universal Access</h4>
+                                <p>We strive to make advanced biometric technology accessible to organizations of all sizes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Values -->
+<section class="our-values">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2>Our <span class="highlight">Values</span></h2>
+            <p class="section-subtitle">The principles that guide everything we do</p>
+        </div>
+        <div class="row values">
+            <div class="col-lg-4 col-md-6">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Privacy</h3>
+                    <p>We believe in the fundamental right to privacy and design our solutions with privacy at the core.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Excellence</h3>
+                    <p>We are committed to excellence in everything we do, from research to customer support.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Integrity</h3>
+                    <p>We operate with the highest level of integrity and transparency in all our business practices.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Inclusivity</h3>
+                    <p>We develop technology that works for everyone, regardless of background or demographics.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Innovation</h3>
+                    <p>We foster a culture of innovation, encouraging creative solutions to complex problems.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Security</h3>
+                    <p>We are dedicated to providing the highest level of security in all our products and services.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Team -->
+<section class="our-team">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2>Our <span class="highlight">Team</span></h2>
+            <p class="section-subtitle">The brilliant minds behind BioFind</p>
+        </div>
+        <div class="row team-members">
+            <div class="col-lg-3 col-md-6">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="{{ url_for('static', filename='images/team-1.jpg') }}" alt="Team Member">
+                    </div>
+                    <h3>Dr. Sarah Johnson</h3>
+                    <p class="member-position">Founder & CEO</p>
+                    <p class="member-bio">With a Ph.D. in Computer Science and over 15 years of experience in biometric technology, Dr. Johnson leads BioFind's vision and strategy.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="{{ url_for('static', filename='images/team-2.jpg') }}" alt="Team Member">
+                    </div>
+                    <h3>Michael Chen</h3>
+                    <p class="member-position">CTO</p>
+                    <p class="member-bio">A pioneer in facial recognition algorithms, Michael oversees all technical aspects of BioFind's products and services.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="{{ url_for('static', filename='images/team-3.jpg') }}" alt="Team Member">
+                    </div>
+                    <h3>Dr. Emily Rodriguez</h3>
+                    <p class="member-position">Head of Research</p>
+                    <p class="member-bio">Leading our research team, Dr. Rodriguez is responsible for developing new biometric identification methods.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="{{ url_for('static', filename='images/team-4.jpg') }}" alt="Team Member">
+                    </div>
+                    <h3>David Kim</h3>
+                    <p class="member-position">Head of Security</p>
+                    <p class="member-bio">With a background in cybersecurity, David ensures that all BioFind products meet the highest security standards.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact CTA -->
+<section class="contact-cta">
+    <div class="container">
+        <div class="cta-content text-center">
+            <h2>Want to Learn More About BioFind?</h2>
+            <p>We'd love to hear from you and discuss how our biometric solutions can meet your needs.</p>
+            <a href="#" class="btn btn-primary btn-lg">Contact Us</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
